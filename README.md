@@ -1,7 +1,9 @@
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cerbos/cerbos?color=green&logo=github&sort=semver)  [![Snapshots](https://github.com/cerbos/cerbos/actions/workflows/snaphot.yaml/badge.svg)](https://github.com/cerbos/cerbos/actions/workflows/snaphot.yaml)  [![Go Reference](https://pkg.go.dev/badge/github.com/cerbos/cerbos/client.svg)](https://pkg.go.dev/github.com/cerbos/cerbos/client)   [![Go Report Card](https://goreportcard.com/badge/github.com/cerbos/cerbos)](https://goreportcard.com/report/github.com/cerbos/cerbos)  [![codecov](https://codecov.io/gh/cerbos/cerbos/branch/main/graph/badge.svg?token=tGaxiUZUzL)](https://codecov.io/gh/cerbos/cerbos)  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 <p align="center">
-  <img src="https://github.com/cerbos/cerbos/blob/main/docs/supplemental-ui/logo.png?raw=true" alt="Cerbos"/>
+  <a href="https://cerbos.dev/">
+    <img src="https://github.com/cerbos/cerbos/blob/main/docs/supplemental-ui/logo.png?raw=true" alt="Cerbos"/>
+  </a>
 </p>
 
 ## What is Cerbos?
@@ -30,7 +32,9 @@ These APIs can be called via [cURL](#api-request), or in production via one of o
 **_RBAC -> ABAC:_** If simple RBAC doesn't cut it, you can extend the decision-making by implementing attribute based rules. Implement `conditions` in your resource policies which are evaluated dynamically at runtime using contextual data, for much more granular control. Add conditions in [derived roles](https://docs.cerbos.dev/cerbos/latest/policies/derived_roles.html) to dynamically extend the RBAC roles. Or use [principal policies](https://docs.cerbos.dev/cerbos/latest/policies/principal_policies.html) for more particular overrides for a specific user.
 
 <p align="center">
-  <img src="https://github.com/cerbos/cerbos/blob/main/docs/modules/ROOT/assets/images/how_cerbos_works.png?raw=true" alt="Cerbos"/>
+  <a href="https://cerbos.dev/how-it-works">
+    <img src="https://github.com/cerbos/cerbos/blob/main/docs/modules/ROOT/assets/images/how_cerbos_works.png?raw=true" alt="Cerbos"/>
+  </a>
 </p>
 
 ## Learn more
@@ -46,7 +50,9 @@ These APIs can be called via [cURL](#api-request), or in production via one of o
 Cerbos is popular among large and small organizations:
 
 <p align="center">
-  <img src="https://cerbos.dev/assets/logos/readme_logos.png" alt="Cerbos"/>
+  <a href="https://cerbos.dev/customers">
+    <img src="https://cerbos.dev/assets/logos/readme_logos.png" alt="Cerbos"/>
+  </a>
 </p>
 
 
